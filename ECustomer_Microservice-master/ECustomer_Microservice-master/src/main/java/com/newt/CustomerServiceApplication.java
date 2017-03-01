@@ -21,13 +21,13 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @SpringBootApplication 
 @EnableDiscoveryClient 
 @EnableSwagger2
-public class CustomerServiceApplication extends WebMvcConfigurerAdapter{
+public class CustomerServiceApplication {
 	private static final Logger logger = Logger.getLogger(CustomerServiceApplication.class);
-	 @Override
+	 /*@Override  extends WebMvcConfigurerAdapter
 	    public void configureContentNegotiation(ContentNegotiationConfigurer configurer) {
 	        configurer.favorPathExtension(false);
 	        configurer.defaultContentType(MediaType.APPLICATION_JSON);
-	    }  
+	    }  */
 
 	public static void main(String[] args) {
 		logger.info("CustomerServices invokation...");

@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class EurekaCont {
-	
+	//hello
 
 	@RequestMapping("/")
 	public String getEurekaServer()
